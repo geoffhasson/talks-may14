@@ -10,9 +10,12 @@ To get started. Go to your Terminal or GUI for git and clone this repo down to y
 Create a branch to work from (replace "*my_branch_name*" with your own branch name. Your username/name would work fine)
 
     $ git branch my_branch_name
+    $ git checkout my_branch_name
 
-While you are working, commit your work aften. (again, replace "*my_commit_message*" with a description of what you are committing)
+While you are working, commit your work often and push it up to the server in your branch.
 
     $ git add .
     $ git commit -m "my_commit_message"
+    $ git push origin my_branch_name
 
+Once you have pushed all your changes up to your branch on github you need to create a pull-request for your changes. That will send me a message to merge your branch into the master branch.
