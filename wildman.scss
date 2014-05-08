@@ -7,12 +7,50 @@ SASS Variables
 
 
 
+.padding {
+	padding: 1em;
+}
+
+.white-text {
+	color: white;
+}
 
 
-.header {
-	background: red;
+
+header {
+	@include outer-container;
+	background-color: #298ec3;
+
+	a {
+		color: white;
+	}
+
+	a:hover {
+		color: lightgrey;
+	}
+	
 }
 
 section {
-	@include span-columns(6);
+	@include outer-container;
+}
+
+
+section {
+max-width: 64em;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-bottom: 3em;
+}
+
+article {
+	@include span-columns(4);
+}
+
+nav {
+	li {
+		display: inline-block;
+		padding: 0 20px 0 0;
+	}
 }
