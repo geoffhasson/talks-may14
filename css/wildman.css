@@ -6,13 +6,50 @@
 /******************************
 SASS Variables
 ******************************/
-.header {
-  background: red; }
+.padding {
+  padding: 1em; }
+
+.white-text {
+  color: white; }
+
+header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #298ec3; }
+  header:after {
+    content: "";
+    display: table;
+    clear: both; }
+  header a {
+    color: white; }
+  header a:hover {
+    color: lightgrey; }
 
 section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+section {
+  max-width: 64em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 3em; }
+
+article {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
-  section:last-child {
+  width: 31.76157%; }
+  article:last-child {
     margin-right: 0; }
+
+nav li {
+  display: inline-block;
+  padding: 0 20px 0 0; }
