@@ -29,7 +29,8 @@ header {
 section {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-color: #d5eefb; }
   section:after {
     content: "";
     display: table;
@@ -46,7 +47,9 @@ article {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  background-color: #aadbf5;
+  padding: 1em; }
   article:last-child {
     margin-right: 0; }
 
