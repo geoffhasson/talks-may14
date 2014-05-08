@@ -4,3 +4,15 @@
 /******************************
 SASS Variables
 ******************************/
+
+
+
+
+
+.header {
+	background: red;
+}
+
+section {
+	@include span-columns(6);
+}
