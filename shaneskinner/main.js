@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', []);
 myApp.factory('Data', function() {
-	return {message: "I'm data from a service"}
+	return {message: "ABCDEF"}
 })
 
 myApp.filter('reverse', function() {
