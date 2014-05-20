@@ -3,7 +3,7 @@
     File Name:           shanesStyles.css
 	Author:		         Shane Skinner
 	Date Created:        05-13-2014
-	Last Updated:        05-13-2013
+	Last Updated:        05-20-2013
 */
 
 /*********** Heading Styles **********/
@@ -33,11 +33,13 @@ body {
 	width: 80%;
 }
 
+section {
+	width: 80%;
+}
+
 li {
 	list-style-type: none;
 }
-
-
 
 /*********** Footer Styles **********/
 

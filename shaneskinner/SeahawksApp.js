@@ -1,9 +1,8 @@
 var SeahawksApp = angular.module('SeahawksApp', []);
 
-var Coach = "Pete Carroll";
-
 SeahawksApp.factory('Seahawks', function () {
 	var Seahawks = {};
+	var Coach = "Pete Carroll";
 
 	Seahawks.roster = [
 	{
@@ -44,5 +43,14 @@ SeahawksApp.factory('Seahawks', function () {
 })
 
 function SeahawksCtrl($scope, Seahawks) {
-	$scope.seahawks = Seahawks;
+	$scope.Seahawks = Seahawks;
 }
+
+var app = angular.module("RichardSherman", [])
+
+app.directive("rant", function() {
+	return {
+		restrict: "E",
+		template: "<div>Don't you ever talk about me! I'm the best Cornerback in the league!</div>"
+	}
+})
